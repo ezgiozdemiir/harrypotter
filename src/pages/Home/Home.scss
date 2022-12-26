@@ -1,0 +1,71 @@
+body {
+  color: white;
+  background-image: url("https://globalgrind.com/wp-content/uploads/sites/16/2018/01/15156957309721.jpg?strip=all&quality=80");
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .Home {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    margin: 30px auto;
+    min-height: 200px;
+    gap: 20px;
+
+    .Gryffindor,
+    .Hufflepuff,
+    .Ravenclaw,
+    .Slytherin {
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+      min-height: 200px;
+      background-image: linear-gradient(to bottom right, #6f0302, #6f0402e8);
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      overflow: auto;
+      border-radius: 16px;
+      box-shadow: 5px 6px #cf9e3d;
+
+      .CharacterList {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        padding: 20px;
+
+        li {
+          padding: 4px 8px 0 0;
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+      .emblem {
+        width: 30%;
+        align-self: center;
+
+        img {
+          display: flex;
+          width: 100%;
+          padding: 30px;
+          border-right: 2px solid #cf9e3d;
+          filter: drop-shadow(8px 8px 4px #faea10);
+          max-width: 350px;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

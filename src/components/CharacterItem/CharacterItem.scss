@@ -1,0 +1,44 @@
+div.CharacterItem {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top left, #000000, #5b5b5b);
+  box-shadow: 5px 6px #cf9e3d;
+  min-height: 700px;
+  @media (min-width: 320px) {
+    width: 100vw;
+  }
+  @media (min-width: 481px) {
+    width: 90vw;
+  }
+  @media (min-width: 641px) {
+    width: 50vw;
+  }
+  @media (min-width: 961px) {
+    width: 40vw;
+  }
+  @media (min-width: 1025px) {
+    width: 30vw;
+  }
+  @media (min-width: 1281px) {
+    width: 20vw;
+  }
+
+  flex: 0 1 33.333%;
+  padding: 1.5vw;
+  margin: 20px;
+  color: white;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .seperator img {
+    filter: invert(65%) sepia(91%) saturate(342%) hue-rotate(356deg)
+      brightness(86%) contrast(86%);
+  }
+}

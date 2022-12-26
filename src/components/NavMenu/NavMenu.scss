@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Harry Potter";
+  src: url(../../assets/fonts/harry-p-font/HarryP-MVZ6w.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+}
+
+.navmenu {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 auto;
+  background-color: rgba(112, 3, 2, 255);
+  font-family: "Harry Potter";
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  border-bottom: 4px solid rgba(208, 158, 61, 255);
+
+  .home-link a {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    text-decoration: none;
+    // margin: 10px;
+    color: rgba(232, 236, 241, 255);
+    padding: 20px;
+  }
+  .links ul {
+    display: flex;
+    position: relative;
+    list-style: none;
+    flex-direction: row;
+    gap: 20px;
+    // margin: 10px;
+    a {
+      list-style: none;
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+    }
+  }
+
+  a:hover {
+    background-color: rgba(191, 132, 39, 255);
+  }
+}

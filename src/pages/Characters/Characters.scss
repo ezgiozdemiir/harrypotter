@@ -1,0 +1,19 @@
+.characters {
+  display: flex;
+  label {
+    font-weight: bold;
+  }
+  span {
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    a {
+      text-decoration: none;
+    }
+  }
+}

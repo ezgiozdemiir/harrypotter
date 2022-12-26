@@ -1,0 +1,9 @@
+.character-details {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin: 10px auto;
+  div.CharacterItem {
+    width: 1000px;
+  }
+}
